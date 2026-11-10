@@ -1,0 +1,12 @@
+{
+  "version": "2026.11.10",
+  "rules": [
+    { "number": "13800138000", "category": "骚扰电话", "note": "示例：完整号码" },
+    { "number": "13900001111", "category": "诈骗" },
+    { "prefix": "9521", "category": "广告推销", "note": "示例：号段前缀" },
+    { "prefix": "170", "category": "广告推销" },
+    { "suffix": "5678", "category": "房产中介", "note": "示例：号码后缀" },
+    { "regex": "^400\\d{7}$", "category": "广告推销", "note": "示例：正则" },
+    { "pattern": "010", "matchType": "PREFIX", "category": "房产中介" }
+  ]
+}
