@@ -1,12 +1,17 @@
 {
   "version": "2026.11.10",
   "rules": [
-    { "number": "13800138000", "category": "骚扰电话", "note": "示例：完整号码" },
-    { "number": "13900001111", "category": "诈骗" },
-    { "prefix": "9521", "category": "广告推销", "note": "示例：号段前缀" },
-    { "prefix": "170", "category": "广告推销" },
-    { "suffix": "5678", "category": "房产中介", "note": "示例：号码后缀" },
-    { "regex": "^400\\d{7}$", "category": "广告推销", "note": "示例：正则" },
-    { "pattern": "010", "matchType": "PREFIX", "category": "房产中介" }
+    { "prefix": "162", "category": "虚拟号段" },
+    { "prefix": "165", "category": "虚拟号段" },
+    { "prefix": "167", "category": "虚拟号段" },
+    { "prefix": "170", "category": "虚拟号段" },
+    { "prefix": "171", "category": "虚拟号段" },
+    { "prefix": "190", "category": "广告推销" },
+    { "prefix": "191", "category": "广告推销" },
+    { "prefix": "192", "category": "广告推销" },
+    { "prefix": "400", "category": "广告推销" },
+    { "prefix": "950", "category": "广告推销" },
+    { "prefix": "951", "category": "广告推销" },
+    { "prefix": "952", "category": "广告推销" }
   ]
 }
