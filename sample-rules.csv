@@ -1,0 +1,8 @@
+# 安心拦截 规则示例
+# kind: BLOCK/ALLOW；match_type: EXACT/PREFIX/SUFFIX/REGEX
+kind,match_type,pattern,note
+BLOCK,EXACT,13800138000,示例骚扰号码
+BLOCK,PREFIX,9521,号段示例
+BLOCK,REGEX,^400\d{7}$,400 营销号段（与内置规则重复，仅作示例）
+ALLOW,PREFIX,010,公司总机
+ALLOW,EXACT,95588,银行客服

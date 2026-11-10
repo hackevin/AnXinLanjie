@@ -1,0 +1,5 @@
+pattern,match_type,category,note
+13800138000,EXACT,骚扰电话,示例：完整号码
+9521,PREFIX,广告推销,示例：号段
+5678,SUFFIX,房产中介,示例：后缀
+^400\d{7}$,REGEX,广告推销,示例：正则
