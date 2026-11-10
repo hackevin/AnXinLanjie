@@ -12,6 +12,10 @@
     { "prefix": "400", "category": "广告推销" },
     { "prefix": "950", "category": "广告推销" },
     { "prefix": "951", "category": "广告推销" },
-    { "prefix": "952", "category": "广告推销" }
+    { "prefix": "952", "category": "广告推销" },
+    { "prefix": "954", "category": "广告推销" },
+    { "prefix": "957", "category": "广告推销" },
+    { "prefix": "958", "category": "广告推销" },
+    { "prefix": "959", "category": "广告推销" }
   ]
 }
